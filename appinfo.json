@@ -1,0 +1,79 @@
+{
+    "appKeys": {
+        "KEY_A1": 2,
+        "KEY_BS": 1,
+        "KEY_BST": 4,
+        "KEY_JS_READY": 0,
+        "KEY_YT": 3
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "Floris Coetzee",
+    "enableMultiJS": true,
+    "longName": "VRM",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/victron_logo.png",
+                "name": "VICTRON_LOGO",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
+                "file": "images/battery_25.png",
+                "name": "BATTERY_25",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
+                "file": "images/battery_50.png",
+                "name": "BATTERY_50",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
+                "file": "images/battery_75.png",
+                "name": "BATTERY_75",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
+                "file": "images/battery_100.png",
+                "name": "BATTERY_100",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
+                "file": "images/load.png",
+                "name": "LOAD",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
+                "file": "images/battery_soc.png",
+                "name": "BATTERY_SOC",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
+                "file": "images/solar_yield.png",
+                "name": "SOLAR_YIELD",
+                "storageFormat": "png",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "VRM",
+    "targetPlatforms": [
+        "chalk"
+    ],
+    "uuid": "5f777516-8323-4e86-a0cd-4d79c210ba54",
+    "versionLabel": "0.1",
+    "watchapp": {
+        "watchface": true
+    }
+}
