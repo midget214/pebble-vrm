@@ -10,12 +10,19 @@ var xhrRequest = function (url, postData, callback) {
   xhr.send(postData);
 };
 
-var username = 'username=floors.ctz@gmail.com';
-var password = 'password=Read only power';
+Pebble.addEventListener('showConfiguration', function() {
+  var url = 'http://midget214.github.io/simple-vrm-config/index.html';
+  console.log('Showing configuration page: ' + url);
+
+  Pebble.openURL(url);
+});
+
+var username = 'username=';
+var password = 'password=';
 var api_version = 'version=220';
 var verification_token = 'verification_token=1';
 var instance = 'instance=0';
-var siteid = 'siteid=2998';
+var siteid = 'siteid=';
 var api_url = 'https://juice.victronenergy.com/';
 var siteCodes = 'codes=["bs", "a1", "YT", "bst", "bt", "ScS"]';
 var session_id = '';

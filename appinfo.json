@@ -11,10 +11,17 @@
     ],
     "companyName": "Floris Coetzee",
     "enableMultiJS": true,
-    "longName": "VRM",
+    "longName": "Simple VRM",
     "projectType": "native",
     "resources": {
         "media": [
+            {
+                "file": "images/watch_face_icon",
+                "menuIcon": true,
+                "name": "watch_face_icon",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
             {
                 "file": "images/victron_logo.png",
                 "name": "VICTRON_LOGO",
@@ -67,7 +74,7 @@
         ]
     },
     "sdkVersion": "3",
-    "shortName": "VRM",
+    "shortName": "Simple VRM",
     "targetPlatforms": [
         "chalk"
     ],
